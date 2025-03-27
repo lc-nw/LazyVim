@@ -13,8 +13,7 @@ require("lazyvim.config").init()
 return {
   { "folke/lazy.nvim", version = "*" },
   {
-    "Lance/LazyVim",
-    url = "https://gitee.com/lw_n/lazyvim.git",
+    "LazyVim",
     priority = 10000,
     lazy = false,
     opts = {},
