@@ -53,5 +53,6 @@ return {
   },
 
   -- library used by other plugins
-  { "nvim-lua/plenary.nvim", lazy = true },
+  -- Lance: 不知道干什么用的，所以注释掉了
+  -- { "nvim-lua/plenary.nvim", lazy = true },
 }
