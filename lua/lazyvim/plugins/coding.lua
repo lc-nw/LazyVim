@@ -22,11 +22,11 @@ return {
   },
 
   -- comments
-  {
-    "ts-comments.nvim",
-    event = "VeryLazy",
-    opts = {},
-  },
+  -- {
+  --   "ts-comments.nvim",
+  --   event = "VeryLazy",
+  --   opts = {},
+  -- },
 
   -- Better text-objects
   --{
