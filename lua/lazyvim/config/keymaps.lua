@@ -37,3 +37,18 @@ if vim.fn.executable("lazygit") == 1 then
     Snacks.picker.git_log()
   end, { desc = "Git日志查看" })
 end
+
+-- floating terminal
+map("n", "<leader>fT", function()
+  Snacks.terminal()
+end, { desc = "打开终端" })
+map("n", "<leader>ft", function()
+  Snacks.terminal(nil, { cwd = LazyVim.root() })
+end, { desc = "打开终端 (根目录)" })
+
+-- windows
+map("n", "<leader>wh", "<C-W>s", { desc = "水平拆分窗体", remap = true })
+map("n", "<leader>wv", "<C-W>v", { desc = "垂直拆分窗体", remap = true })
+map("n", "<leader>wq", "<C-W>q", { desc = "关闭当前窗体", remap = true })
+-- Snacks.toggle.zoom():map("<leader>wm"):map("<leader>uZ")
+-- Snacks.toggle.zen():map("<leader>uz")
