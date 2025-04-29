@@ -12,12 +12,12 @@ require("lazyvim.config").init()
 
 return {
   {
-    --Lance: lazy.nvim核心插件
+    -- Lance: lazy.nvim核心插件
     "folke/lazy.nvim",
     version = "*",
   },
   {
-    --Lance: 自用核心插件
+    -- Lance: 自用核心插件
     "LazyVim",
     priority = 10000,
     lazy = false,
@@ -26,7 +26,7 @@ return {
     version = "*",
   },
   {
-    --Lance: 开始页插件
+    -- Lance: 开始页插件
     "folke/snacks.nvim",
     priority = 1000,
     lazy = false,

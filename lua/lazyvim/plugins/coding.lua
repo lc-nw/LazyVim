@@ -1,7 +1,7 @@
 return {
   -- auto pairs
   {
-    --Lance: 自动配对插件
+    -- Lance: 自动配对插件
     "echasnovski/mini.pairs",
     event = "VeryLazy",
     opts = {
@@ -66,7 +66,7 @@ return {
   --},
 
   {
-    --Lance: lazydev.nvim插件
+    -- Lance: lazydev.nvim插件
     "folke/lazydev.nvim",
     ft = "lua",
     cmd = "LazyDev",

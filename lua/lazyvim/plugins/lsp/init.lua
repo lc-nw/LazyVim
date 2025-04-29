@@ -1,7 +1,7 @@
 return {
   -- lspconfig
   {
-    --Lance: LSP插件
+    -- Lance: LSP插件
     "neovim/nvim-lspconfig",
     event = "LazyFile",
     dependencies = {
@@ -257,7 +257,7 @@ return {
 
   -- cmdline tools and lsp servers
   {
-    --Lance: LSP的mason管理插件
+    -- Lance: LSP的mason管理插件
     "williamboman/mason.nvim",
     cmd = "Mason",
     keys = { { "<leader>cm", "<cmd>Mason<cr>", desc = "Mason工具" } },

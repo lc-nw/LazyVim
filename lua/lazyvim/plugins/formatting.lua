@@ -18,7 +18,7 @@ function M.setup(_, opts)
 end
 
 return {
-  --Lance: 自动格式化插件
+  -- Lance: 自动格式化插件
   "stevearc/conform.nvim",
   dependencies = { "mason.nvim" },
   lazy = true,

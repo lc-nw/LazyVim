@@ -26,7 +26,7 @@ return {
   -- which-key helps you remember key bindings by showing a popup
   -- with the active keybindings of the command you started typing.
   {
-    --Lance: 操作指令插件
+    -- Lance: 操作指令插件
     "folke/which-key.nvim",
     event = "VeryLazy",
     opts_extend = { "spec" },
@@ -75,7 +75,7 @@ return {
         },
       },
     },
-    --Lance: 不经常使用
+    -- Lance: 不经常使用
     --keys = {
     --{
     --"<leader>?",
@@ -106,7 +106,7 @@ return {
   -- git commit, and also lets you interactively stage & unstage
   -- hunks in a commit.
   {
-    --Lance: Git信息操作插件
+    -- Lance: Git信息操作插件
     "lewis6991/gitsigns.nvim",
     event = "LazyFile",
     opts = {
@@ -180,7 +180,7 @@ return {
 
   -- better diagnostics list and others
   {
-    --Lance: 代码诊断插件
+    -- Lance: 代码诊断插件
     "folke/trouble.nvim",
     cmd = { "Trouble" },
     opts = {
@@ -191,7 +191,7 @@ return {
       },
     },
     keys = {
-      --Lance: 不使用
+      -- Lance: 不使用
       --{ "<leader>xx", "<cmd>Trouble diagnostics toggle<cr>", desc = "诊断 (Trouble)" },
       --{ "<leader>xX", "<cmd>Trouble diagnostics toggle filter.buf=0<cr>", desc = "Buffer Diagnostics (Trouble)" },
       --{ "<leader>cs", "<cmd>Trouble symbols toggle<cr>", desc = "Symbols (Trouble)" },
@@ -232,7 +232,7 @@ return {
   -- Finds and lists all of the TODO, HACK, BUG, etc comment
   -- in your project and loads them into a browsable list.
   {
-    --Lance: 待办事项管理插件
+    -- Lance: 待办事项管理插件
     "folke/todo-comments.nvim",
     cmd = { "TodoTrouble", "TodoTelescope" },
     event = "LazyFile",
@@ -248,7 +248,7 @@ return {
     },
   },
   {
-    --Lance: 快速跳转插件
+    -- Lance: 快速跳转插件
     "smoka7/hop.nvim",
     version = "*",
     vscode = true,

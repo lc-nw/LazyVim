@@ -1,5 +1,5 @@
 return {
-  --Lance: 代码检查器插件
+  -- Lance: 代码检查器插件
   "mfussenegger/nvim-lint",
   event = "LazyFile",
   opts = {

@@ -2,11 +2,11 @@ return {
   -- This is what powers LazyVim's fancy-looking
   -- tabs, which include filetype icons and close buttons.
   {
-    --Lance: 缓存选项卡插件
+    -- Lance: 缓存选项卡插件
     "akinsho/bufferline.nvim",
     event = "VeryLazy",
     keys = {
-      --Lance: 变更键盘映射
+      -- Lance: 变更键盘映射
       { "<leader>bp", "<Cmd>BufferLineTogglePin<CR>", desc = "固定/取消Buffer" },
       { "<leader>bP", "<Cmd>BufferLineGroupClose ungrouped<CR>", desc = "删除未固定Buffer" },
       { "<leader>br", "<Cmd>BufferLineCloseRight<CR>", desc = "删除右侧Buffer" },
@@ -37,7 +37,7 @@ return {
     },
     opts = {
       options = {
-        --Lance: 整合BufferLine配置
+        -- Lance: 整合BufferLine配置
         separator_style = "slant",
         show_buffer_close_icons = true,
         show_close_icon = false,
@@ -89,7 +89,7 @@ return {
 
   -- statusline
   {
-    --Lance: 状态栏插件
+    -- Lance: 状态栏插件
     "nvim-lualine/lualine.nvim",
     event = "VeryLazy",
     init = function()
@@ -219,7 +219,7 @@ return {
 
   -- Highly experimental plugin that completely replaces the UI for messages, cmdline and the popupmenu.
   {
-    --Lance: 通知类插件
+    -- Lance: 通知类插件
     "folke/noice.nvim",
     event = "VeryLazy",
     opts = {
@@ -274,7 +274,7 @@ return {
 
   -- icons
   {
-    --Lance: Mini图标插件
+    -- Lance: Mini图标插件
     "echasnovski/mini.icons",
     lazy = true,
     opts = {
@@ -296,13 +296,13 @@ return {
 
   -- ui components
   {
-    --Lance: 命令框类插件
+    -- Lance: 命令框类插件
     "MunifTanjim/nui.nvim",
     lazy = true,
   },
 
   {
-    --Lance: 开始页插件
+    -- Lance: 开始页插件
     "snacks.nvim",
     opts = {
       indent = { enabled = true },

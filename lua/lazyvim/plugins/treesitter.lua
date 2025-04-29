@@ -3,7 +3,7 @@ return {
   -- use in Neovim to power faster and more accurate
   -- syntax highlighting.
   {
-    --Lance: 代码解析器插件
+    -- Lance: 代码解析器插件
     "nvim-treesitter/nvim-treesitter",
     version = false, -- last release is way too old and doesn't work on Windows
     build = ":TSUpdate",
@@ -19,7 +19,7 @@ return {
       require("nvim-treesitter.query_predicates")
     end,
     cmd = { "TSUpdateSync", "TSUpdate", "TSInstall" },
-    --Lance:与其他按键冲突
+    -- Lance:与其他按键冲突
     --keys = {
     --{ "<c-space>", desc = "Increment Selection" },
     --{ "<bs>", desc = "Decrement Selection", mode = "x" },
@@ -87,7 +87,7 @@ return {
   },
 
   {
-    --Lance: 代码解析器插件
+    -- Lance: 代码解析器插件
     "nvim-treesitter/nvim-treesitter-textobjects",
     event = "VeryLazy",
     enabled = true,
@@ -123,7 +123,7 @@ return {
 
   -- Automatically add closing tags for HTML and JSX
   -- {
-  --   --Lance: 代码标签自动填充插件
+  --   -- Lance: 代码标签自动填充插件
   --   "windwp/nvim-ts-autotag",
   --   event = "LazyFile",
   --   opts = {},

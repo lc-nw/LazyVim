@@ -1,5 +1,5 @@
 return {
-  --Lance: 默认禁用,再取消安装该插件
+  -- Lance: 默认禁用,再取消安装该插件
   -- { "garymjr/nvim-snippets", enabled = false },
 
   -- add luasnip

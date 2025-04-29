@@ -59,10 +59,10 @@ return {
       { "<leader>/", LazyVim.pick("grep"), desc = "查找文本 (根目录)" },
       { "<leader>:", function() Snacks.picker.command_history() end, desc = "命令历史" },
       { "<leader><space>", LazyVim.pick("files"), desc = "查找文件 (根目录)" },
-      { "<leader>n", function() Snacks.picker.notifications() end, desc = "Notification History" }, --Lance: 不生效
+      { "<leader>n", function() Snacks.picker.notifications() end, desc = "Notification History" }, -- Lance: 不生效
       -- find
-      --{ "<leader>fb", function() Snacks.picker.buffers() end, desc = "Buffers" }, --Lance: 使用<leader>be代替
-      --{ "<leader>fB", function() Snacks.picker.buffers({ hidden = true, nofile = true }) end, desc = "Buffers (all)" }, --Lance: 不经常使用
+      --{ "<leader>fb", function() Snacks.picker.buffers() end, desc = "Buffers" }, -- Lance: 使用<leader>be代替
+      --{ "<leader>fB", function() Snacks.picker.buffers({ hidden = true, nofile = true }) end, desc = "Buffers (all)" }, -- Lance: 不经常使用
       { "<leader>fc", LazyVim.pick.config_files(), desc = "查找配置文件" },
       --{ "<leader>ff", LazyVim.pick("files"), desc = "Find Files (Root Dir)" },
       --{ "<leader>fF", LazyVim.pick("files", { root = false }), desc = "Find Files (cwd)" },
@@ -82,27 +82,27 @@ return {
       { "<leader>sg", LazyVim.pick("live_grep"), desc = "查找文本 (根目录)" },
       { "<leader>sG", LazyVim.pick("live_grep", { root = false }), desc = "查找文本" },
       { "<leader>sp", function() Snacks.picker.lazy() end, desc = "查找插件信息" },
-      --Lance: 不清楚具体效果
+      -- Lance: 不清楚具体效果
       --{ "<leader>sw", LazyVim.pick("grep_word"), desc = "Visual selection or word (Root Dir)", mode = { "n", "x" } },
       --{ "<leader>sW", LazyVim.pick("grep_word", { root = false }), desc = "Visual selection or word (cwd)", mode = { "n", "x" } },
       -- search
       { '<leader>s"', function() Snacks.picker.registers() end, desc = "查找剪切板" },
-      --{ '<leader>s/', function() Snacks.picker.search_history() end, desc = "Search History" }, --Lance:不清楚具体效果
-      --{ "<leader>sa", function() Snacks.picker.autocmds() end, desc = "查找命令实现" }, --Lance:不经常使用
+      --{ '<leader>s/', function() Snacks.picker.search_history() end, desc = "Search History" }, -- Lance:不清楚具体效果
+      --{ "<leader>sa", function() Snacks.picker.autocmds() end, desc = "查找命令实现" }, -- Lance:不经常使用
       { "<leader>sc", function() Snacks.picker.command_history() end, desc = "查找命令历史" },
       { "<leader>sC", function() Snacks.picker.commands() end, desc = "查找命令信息" },
       { "<leader>sd", function() Snacks.picker.diagnostics() end, desc = "查找诊断信息" },
       { "<leader>sD", function() Snacks.picker.diagnostics_buffer() end, desc = "查找当前Buffer诊断" },
       { "<leader>sh", function() Snacks.picker.help() end, desc = "查找Help页面" },
-      --{ "<leader>sH", function() Snacks.picker.highlights() end, desc = "查找高亮信息" }, --Lance:不经常使用
+      --{ "<leader>sH", function() Snacks.picker.highlights() end, desc = "查找高亮信息" }, -- Lance:不经常使用
       { "<leader>si", function() Snacks.picker.icons() end, desc = "查找图标信息" },
       { "<leader>sj", function() Snacks.picker.jumps() end, desc = "查找跳转历史" },
       { "<leader>sk", function() Snacks.picker.keymaps() end, desc = "查找键盘映射" },
-      --{ "<leader>sl", function() Snacks.picker.loclist() end, desc = "Location List" }, --Lance:不清楚具体效果
+      --{ "<leader>sl", function() Snacks.picker.loclist() end, desc = "Location List" }, -- Lance:不清楚具体效果
       { "<leader>sM", function() Snacks.picker.man() end, desc = "查找Man页面" },
       { "<leader>sm", function() Snacks.picker.marks() end, desc = "查找Marks标识" },
       { "<leader>sR", function() Snacks.picker.resume() end, desc = "查找摘要" },
-      --{ "<leader>sq", function() Snacks.picker.qflist() end, desc = "查找修复列表" }, --Lance:不清楚具体效果
+      --{ "<leader>sq", function() Snacks.picker.qflist() end, desc = "查找修复列表" }, -- Lance:不清楚具体效果
       { "<leader>su", function() Snacks.picker.undo() end, desc = "查找回退历史" },
       -- ui
       --{ "<leader>uC", function() Snacks.picker.colorschemes() end, desc = "Colorschemes" },
@@ -155,7 +155,7 @@ return {
     -- stylua: ignore
     keys = {
       { "<leader>st", function() Snacks.picker.todo_comments() end, desc = "查找标签" },
-      --{ "<leader>sT", function () Snacks.picker.todo_comments({ keywords = { "TODO", "FIX", "FIXME" } }) end, desc = "Todo/Fix/Fixme" }, --Lance:不经常使用
+      --{ "<leader>sT", function () Snacks.picker.todo_comments({ keywords = { "TODO", "FIX", "FIXME" } }) end, desc = "Todo/Fix/Fixme" }, -- Lance:不经常使用
     },
   },
   --{

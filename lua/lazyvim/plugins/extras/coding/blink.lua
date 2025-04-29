@@ -7,9 +7,9 @@ if lazyvim_docs then
 end
 
 return {
-  --Lance: 不使用
+  -- Lance: 不使用
   -- {
-  --   --Lance: 代码自动补全插件
+  --   -- Lance: 代码自动补全插件
   --   "hrsh7th/nvim-cmp",
   --   optional = true,
   --   enabled = false,

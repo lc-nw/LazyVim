@@ -18,7 +18,7 @@ function M.get()
       { "gI", vim.lsp.buf.implementation, desc = "转到实现" },
       { "gy", vim.lsp.buf.type_definition, desc = "转到类型" },
       { "gD", vim.lsp.buf.declaration, desc = "转到声明" },
-      --Lance: 不使用
+      -- Lance: 不使用
       --{ "<leader>cl", function() Snacks.picker.lsp_config() end, desc = "Lsp信息" },
       --{ "K", function() return vim.lsp.buf.hover() end, desc = "Hover" },
       --{ "gK", function() return vim.lsp.buf.signature_help() end, desc = "Signature Help", has = "signatureHelp" },
