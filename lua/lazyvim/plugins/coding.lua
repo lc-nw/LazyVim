@@ -4,6 +4,7 @@ return {
     -- Lance: 自动配对插件
     "echasnovski/mini.pairs",
     event = "VeryLazy",
+    enabled = false,
     opts = {
       modes = { insert = true, command = true, terminal = false },
       -- skip autopair when next character is one of these
