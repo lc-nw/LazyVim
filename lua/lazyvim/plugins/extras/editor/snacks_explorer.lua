@@ -2,7 +2,6 @@ return {
   desc = "Snacks File Explorer",
   recommended = true,
   "folke/snacks.nvim",
-  enabled = not vim.g.vscode,
   opts = { explorer = {} },
   keys = {
     {
